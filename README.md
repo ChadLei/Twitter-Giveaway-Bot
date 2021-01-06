@@ -1,42 +1,26 @@
-https://unionmetrics.com/resources/how-to-use-advanced-twitter-search-queries/
+# Twitter Giveaway Bot
 
-Useful links for future use:
+A script that listens to your choice of accounts for giveaways and raffles and enters them according to the requirements of the tweet (like, retweet, comment, tag your friends, etc.)
 
-home_timeline for when you want to get
-20 of the most recent statuses from
-my PERSONAL timeline
+## Inspiration
+https://qz.com/476914/i-built-a-twitter-bot-that-entered-and-won-1000-online-contests-for-me/
+
+## Requirements
+1. Must have a developer account for the account(s) you want to run this script with.
+2. This script uses the Tweepy Library: https://www.tweepy.org/
+3. Contact me for the format of the keys/tokens file!
+
+## Usage
+#### To run bot:
+#### Run the following command and replace {YOUR_ACCOUNT_NAME} with your personal account.
+```python
+python twitterbot.py YOUR_ACCOUNT_NAME
+```
+
+## Useful links:
+##### home_timeline for when you want to get 20 of the most recent statuses from my PERSONAL timeline
 - https://www.geeksforgeeks.org/python-api-home_timeline-in-tweepy/
 - notes:
 - home_timeline: 15 requests per 15 min window (1 request / min)
 - user_timeline: 900 requests per 15 min window (60 request / min)
-
-# Software Dev Job Auto Apply & Scraper
-
-A script to scrape company job sites hosted on Greenhouse for job listings and automatically apply to each job using pre-populated data.
-
-## Inspiration
-Job hunting is rough. Having to answer the same generic questions 1000 times is even rougher. You can't automate every site, but one was good enough for me!
-Thank you to https://github.com/harshibar for making this easier.
-
-## Installation
-1. Install [ChromeDriver] `pip install ChromeDriverManager`
-2. Install [Selenium]: `pip install selenium`
-3. Install [BeautifulSoup]: `pip install beautifulsoup4`
-
-## Usage
-#### To scrape jobs:
-1. Put in your companies of interest (their greenhouse url) in `scraper_and_scraped_urls/job_websites_to_scrap.txt`. It comes by default with 100+ companies in the file.
-2. Run `python webScraper.py`. URLs found will be saved to `scraped_jobs.txt`.
-
-#### To auto apply:
-1. Put in your information in `form_input_basic_info.py`.
-2. Run `python main.py`
-3. Sometimes you might encounter applications that ask for information that isn't included in this script, so you'll have to manually fill those out.
-4. You also may encounter captcha. Currently looking for a solution for this (VERY OPEN TO SUGGESTIONS AND HELP!). I'm thinking of implementing a anti-captcha solver service.
-
-
-## Thanks
-
-* [Selenium](https://selenium-python.readthedocs.io/) - A tool designed for QA testing, but that actually works great for making these types of bots
-* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/doc) - A tool to scrape HTML/XML content (that saved be *big time* with this project)
-* [Harshi harshibar](https://github.com/harshibar/common-intern) - The base of where I started for this project.
+##### https://unionmetrics.com/resources/how-to-use-advanced-twitter-search-queries/
