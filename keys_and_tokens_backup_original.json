@@ -1,0 +1,42 @@
+{
+  "chazeichazy": {
+    "consumer_key": "fpwJGvlRdmRkmsi4rBLCKRr8h",
+    "consumer_secret": "wlsdBjSW4rItddfEtWMFHZkbG8MnsWRqNoZajQu0UygMvhZKqw",
+    "access_token": "164155482-veso4Se4jCA6PSVwlji64qfdPfcGrvcLmSJgkQlz",
+    "access_token_secret": "K90nZjSUd90gwk2Q7bktwMvxV4fqHQL1Q87PqIOBcq8I7",
+    "person_to_tag": "@Jessica_64546 @DiKvothe",
+		"final_account_to_run": false
+  },
+  "pestermutant": {
+    "consumer_key": "yMXF3P59rD4F5gqrgjlzKnpLF",
+    "consumer_secret": "bZxQhFy71tEN7BN0zHIIYJDZXZVjmuNayE5Ek9vUTzAdlpgQwv",
+    "access_token": "1155186458468085760-v8eAdYGKw7V7DfF4zVwlJGxBO5HZX2",
+    "access_token_secret": "OD0Lk8EP2zWhXHLRRpnZ3IDPYRTY3TXsAUDGaybmEvS7J",
+    "person_to_tag": "@aikoharunoo @oazeem14",
+		"final_account_to_run": false
+  },
+  "mergecook": {
+    "consumer_key": "mrNI7eAGAyRgTUlt8NsdJr0tc",
+    "consumer_secret": "kfiJlRvr3D4J0Xl4APVlGTdIInXR7hmWGpFVib18CfcgNlraYK",
+    "access_token": "1153774025711030273-0AjbnkkygVY2q3TZ0ls9FamrJCTVo6",
+    "access_token_secret": "GpTeX2BcNrXz6RUbhdsxzrPMB7GMqPoLRlj7cTloIkfxz",
+    "person_to_tag": "@Fhsbshshs @Ionickid",
+		"final_account_to_run": false
+  },
+  "aikoharunoo": {
+    "consumer_key": "pJqrxTHUu7J92CnG51pVfdwJK",
+    "consumer_secret": "dM0mUlnOlcZ5aXWl4MVyPsvXpGI1HkpzwvSFTPRO8uBIvkj3jx",
+    "access_token": "1308917608020729856-iSQ5rirXuwBLVSr6jEAbCm5IEGVOM4",
+    "access_token_secret": "BVkTtxNf8wu7pKft37tbXwM1IvTeUoXEVQrGY3PN6rFd2",
+    "person_to_tag": "@ChadLei1 @Bran__starky",
+		"final_account_to_run": false
+  },
+  "officialchidori": {
+    "consumer_key": "6CB5JF1QR4E6h59Mq8jGtntXS",
+    "consumer_secret": "6Hgf9I8Txl4kvqnzXRcCiZkZs9s88n9ybaFzAhEXD2m0Npxdv8",
+    "access_token": "2546658554-SRxr6o8LBvtbgMQ5FnGRmOudQmetBTL94kVHcnf",
+    "access_token_secret": "j4O4kXnbsOy2DBGwbHTXak85XnC8uV0mfwTeDmKdOGIIg",
+    "person_to_tag": "@prsntrio @RaisanBranStark",
+		"final_account_to_run": true
+  }
+}
